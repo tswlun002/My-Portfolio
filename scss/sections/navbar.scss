@@ -2,7 +2,7 @@
 @use'../components/mixins.scss' as *;
 .menu{
     @include gradient;
-    background: linear-gradient(to right,rgba($primary, 1),rgba($secondary, 0.4),rgba($secondary, 0.1));
+    background: linear-gradient(to right,rgba($primary, 1),rgba($primary, 0.58),rgba($secondary, 0.2));
 
     li{
         padding: 0 0.8rem;
@@ -11,6 +11,11 @@
         counter-reset: $white !important;
         text-transform: capitalize;
         font-weight: 600;
+        .navbar-brand a{
+            font-size: 300;
+         
+        }
 
     }
 }
+

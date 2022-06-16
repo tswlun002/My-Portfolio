@@ -10724,7 +10724,7 @@ textarea.form-control-lg {
 }
 .menu {
   background: linear-gradient(to right, #e9ecef, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
-  background: linear-gradient(to right, #e9ecef, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
+  background: linear-gradient(to right, #e9ecef, rgba(233, 236, 239, 0.58), rgba(0, 0, 0, 0.2));
 }
 .menu li {
   padding: 0 0.8rem;
@@ -10733,6 +10733,9 @@ textarea.form-control-lg {
   counter-reset: #fff !important;
   text-transform: capitalize;
   font-weight: 600;
+}
+.menu a .navbar-brand a {
+  font-size: 300;
 }
 
 /*# sourceMappingURL=navbar.css.map */
