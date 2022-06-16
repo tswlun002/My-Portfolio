@@ -1,0 +1,16 @@
+@use'../customer' as *;
+@use'../components/mixins.scss' as *;
+.menu{
+    @include gradient;
+    background: linear-gradient(to right,rgba($primary, 1),rgba($secondary, 0.4),rgba($secondary, 0.1));
+
+    li{
+        padding: 0 0.8rem;
+    }
+    a{
+        counter-reset: $white !important;
+        text-transform: capitalize;
+        font-weight: 600;
+
+    }
+}

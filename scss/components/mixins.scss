@@ -1,0 +1,5 @@
+@use'../customer' as *;
+@mixin gradient{
+    background: linear-gradient(to right,rgba($primary, 1),rgba($secondary, 0.4),rgba($secondary, 0.1));
+
+}

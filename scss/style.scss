@@ -1,0 +1,13 @@
+@use'customer';
+//IMPORT COMPONENTS
+@use'components/buttons.scss';
+@use'components/animation.scss';
+
+//IMPORT SECTIONS
+@use'sections/navbar.scss';
+@use'sections/introduction.scss';
+@use 'sections/projects.scss';
+@use'sections/about.scss';
+@use'sections/contacts.scss';
+@use 'sections/footer.scss';
+
