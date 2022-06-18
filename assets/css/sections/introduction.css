@@ -10725,14 +10725,28 @@ textarea.form-control-lg {
 .intro {
   background: linear-gradient(to right, #e9ecef, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
   background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
-  padding: 10rem 0 0 0;
+  padding: 2rem 0 0 0;
   width: 100%;
   height: 100%;
+}
+@media (min-width: 992px) {
+  .intro {
+    background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+    padding: 10rem 0 0 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .intros .profile-picture {
   position: relative;
-  margin-top: 3rem;
+  margin-top: 2.3rem;
+}
+@media (min-width: 992px) {
+  .intros .profile-picture {
+    position: relative;
+    margin-top: 3rem;
+  }
 }
 
 /*# sourceMappingURL=introduction.css.map */

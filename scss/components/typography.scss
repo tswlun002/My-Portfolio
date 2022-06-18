@@ -2,16 +2,40 @@
 .display-2{
     margin: 1rem;
     text-transform: capitalize;
-    &--intro{
+    font-family: 'Poppins', sans-serif;
+    &--greetings{
+        display:block;
+        font-weight: 500;
+        font-size: 1.5rem;
+        @include media-breakpoint-up(lg){
+            font-size: 2rem;
+
+            
+        }
+    }
+    &--Fullname{
         display: inline-block;
         font-weight: 700;
-        font-family: 'Poppins', sans-serif;
+        font-size: 2.5rem;
+        @include media-breakpoint-up(lg){
+            font-size: 4rem;
+
+            
+        }
     }
     &--description{
-        font-size: 1.5rem;
+        font-size: 1rem;
         display: block;
-        margin-top: 2rem;
+        margin-top: 1.2rem;
         text-transform: none;
-        font-family: 'Poppins', sans-serif;
+        @include media-breakpoint-up(lg){
+            font-size: 1.5rem;
+            display: block;
+            margin-top: 2rem;
+            text-transform: none;
+        }
     }
+}
+.display-3{
+    font-size: 1.5rem;
 }

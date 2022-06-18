@@ -7,6 +7,8 @@
     <title>Lunga Tsewu Portfolio</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link  rel="stylesheet" href="assets/css/style.css">
+    <link  rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500&display=swap" rel="stylesheet"> 
 </head>
 <body>
@@ -41,30 +43,52 @@
     ///////////////////////////////////////////////////////////////////////////-->
     <section id="home" class="intro">
       <div class="container">
+        <!-- FIRST COLUMN OF INTRODUCTION-->
         <div class="row align-items-center text-white">
           <div class="col-md-6 intros text-end">
             <div class="profile-picture">
               <img src="./images/_profile/1st.jpg" alt="My picture"  class="img-fluid">
             </div>
             </div>
-          <!-- FIRST COLUMN OF INTRODUCTION-->
+          <!-- SECOND COLUMN OF INTRODUCTION-->
           <div class="col-md-6 intros">
             <h1 class="display-2">
-              <span class="display-2--intro">
-                Hey!, I'm Lunga Tsewu.
+              <span class="display-2--greetings">
+                Hey!, I'm
+              </span>
+              <span class="display-2--Fullname">
+                Lunga Tsewu
               </span>
               <span class="display-2--description lh-base ">
-                I am software engeneer (back-end) which i gain experience in the past 4 year at university, many other project and work i did but i still exploring other technologies and frameworks like machine learning or Internet of thing (IOT) that 
-                catch my interest. If you looking for developer or software engeneer to add to your team, i'd appreciate to here from you.
+                I am software engeneer or back-end developer but i still exploring other technologies and frameworks like machine learning or Internet of thing (IOT) that 
+                catch my interest.If you looking for software engeneer to add to your team, i'd appreciate to here from you.
               </span>
             </h1>
+            <!--/////////////////////////////////////////////////////////////////////
+                      BUTTONS FOR RESUME, GITHUB, EMAIL, LINKEDIN AND TWITTER
+            /////////////////////////////////////////////////////////////////////////////-->
+            <p class="display-3">
+              <button type="button" class="rounded-pill btn-outline-primary  btn-resume"  >Resume
+                <span><i class="fa fa-download"></i></span>
+              </button>
+              <button type="button" class="rounded-pill btn-outline-primary btn-github" onclick="toGithub()"><i  class="fa fa-github"></i></button>
+              <button type="button" class="rounded-pill btn-outline-primary btn-email" onclick="emailTo()"><i class="fa fa-envelope"></i></button>
+              <button type="button" class="rounded-pill btn-outline-primary  btn-linkedin" onclick="toLinkedin()"><i class="fa fa-linkedin"></i></button>
+              <button type="button" class="rounded-pill btn-outline-primary btn-twitter" onclick="toTwitter()"><i class="fa fa-twitter"></i></button>
+           
+            </p>
           </div>
           
         </div>
       </div>
     </section>
-
-     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!--/////////////////////////////////////////////////////////////
+                          INCLUDE index.js Script
+    /////////////////////////////////////////////////////////////////-->
+    <script  src="index.js" type="text/javascript"></script>
+     <!--////////////////////////////////////////////////////////////
+        jQuery first, then Popper.js, then Bootstrap JS 
+      ///////////////////////////////////////////////////////////////-->
      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> 

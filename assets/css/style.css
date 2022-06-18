@@ -10722,21 +10722,69 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-resume {
+  margin-top: 3rem;
+  position: bottom;
+  display: inline-block;
+  margin-left: 2rem;
+  border: 0.1;
+  width: 12rem;
+  height: 3.1rem;
+  color: #fff;
+}
+
+.btn-github, .btn-email, .btn-linkedin, .btn-twitter {
+  margin-left: 1rem;
+  position: bottom;
+  display: inline-block;
+  border: 0.1;
+  width: 5rem;
+  height: 3rem;
+  color: #fff;
+}
+
 .display-2 {
   margin: 1rem;
   text-transform: capitalize;
+  font-family: "Poppins", sans-serif;
 }
-.display-2--intro {
+.display-2--greetings {
+  display: block;
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+@media (min-width: 992px) {
+  .display-2--greetings {
+    font-size: 2rem;
+  }
+}
+.display-2--Fullname {
   display: inline-block;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-size: 2.5rem;
+}
+@media (min-width: 992px) {
+  .display-2--Fullname {
+    font-size: 4rem;
+  }
 }
 .display-2--description {
-  font-size: 1.5rem;
+  font-size: 1rem;
   display: block;
-  margin-top: 2rem;
+  margin-top: 1.2rem;
   text-transform: none;
-  font-family: "Poppins", sans-serif;
+}
+@media (min-width: 992px) {
+  .display-2--description {
+    font-size: 1.5rem;
+    display: block;
+    margin-top: 2rem;
+    text-transform: none;
+  }
+}
+
+.display-3 {
+  font-size: 1.5rem;
 }
 
 .menu {
@@ -10758,14 +10806,28 @@ textarea.form-control-lg {
 .intro {
   background: linear-gradient(to right, #e9ecef, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
   background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
-  padding: 10rem 0 0 0;
+  padding: 2rem 0 0 0;
   width: 100%;
   height: 100%;
+}
+@media (min-width: 992px) {
+  .intro {
+    background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+    padding: 10rem 0 0 0;
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .intros .profile-picture {
   position: relative;
-  margin-top: 3rem;
+  margin-top: 2.3rem;
+}
+@media (min-width: 992px) {
+  .intros .profile-picture {
+    position: relative;
+    margin-top: 3rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
