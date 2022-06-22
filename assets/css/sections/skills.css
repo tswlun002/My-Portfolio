@@ -10722,13 +10722,13 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.about {
+.skills {
   background-image: url("../../images/background/bck_.png");
 }
 @media (min-width: 992px) {
-  .about {
+  .skills {
     background-image: url("../../images/background/intro_bkg.jpeg");
   }
 }
 
-/*# sourceMappingURL=about.css.map */
+/*# sourceMappingURL=skills.css.map */

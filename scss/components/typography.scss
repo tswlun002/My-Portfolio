@@ -3,24 +3,25 @@
     margin: 1rem;
     text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
+    
     &--greetings{
         display:block;
         font-weight: 500;
         font-size: 1.5rem;
+        margin-left: 0.5rem;
         @include media-breakpoint-up(lg){
-            font-size: 2rem;
-
-            
+            font-size: 1.5rem;  
+            margin-left: 2rem;
         }
     }
     &--Fullname{
         display: inline-block;
         font-weight: 700;
         font-size: 2.5rem;
+        margin-left: 0.5rem;
         @include media-breakpoint-up(lg){
             font-size: 4rem;
-
-            
+            margin-left: 2rem;
         }
     }
     &--description{
@@ -28,14 +29,64 @@
         display: block;
         margin-top: 1.2rem;
         text-transform: none;
+        margin-left: 0.5rem;
         @include media-breakpoint-up(lg){
             font-size: 1.5rem;
             display: block;
             margin-top: 2rem;
             text-transform: none;
+            margin-left: 2rem;
         }
     }
 }
 .display-3{
-    font-size: 1.5rem;
+    font-size: 1rem;
+    @include media-breakpoint-up(lg){
+        font-size: 1.3rem;
+    }
+    
+    
+}
+
+.heading-line::before{
+    content: "";
+    width: 18rem;
+    height: 0.2rem;
+    margin: 0 auto;
+    display: block;
+    background-color:$white;
+}
+.heading-line::after{
+    content: "";
+    width: 8rem;
+    height: 0.5rem;
+    padding-top: 0.5rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    display: block;
+    background-color:$white;
+}
+.display-4{
+     margin-top: 4rem;
+    font-family: 'Poppins', sans-serif;
+    @include media-breakpoint-up(lg){
+        margin-top: 8rem;
+        font-family: 'Poppins', sans-serif;
+    }
+
+   
+}
+.about-description{
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    display: block;
+    text-transform: none;
+    @include media-breakpoint-up(lg){
+        font-size: 1.5rem;
+        display: block;
+        margin-top: 2rem;
+        text-transform: none;
+    }
+
 }

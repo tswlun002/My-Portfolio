@@ -3,12 +3,13 @@
 
 .intro{
     @include gradient;
-    background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+    background-image: url("../../images/background/bck_.png");
     padding: 2rem 0 0 0;
     width: 100%;
     height: 100%;
+    
     @include media-breakpoint-up(lg){
-        background-image: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+        background-image:url("../../images/background/intro_bkg.jpeg");
         padding: 10rem 0 0 0;
         width: 100%;
         height: 100%;
@@ -17,7 +18,6 @@
 .intros{
     .profile-picture{
         position: relative;
-        margin-top: 2.3rem;
         @include media-breakpoint-up(lg){
             position: relative;
             margin-top: 3rem;
