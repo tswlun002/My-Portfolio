@@ -10723,24 +10723,49 @@ textarea.form-control-lg {
   }
 }
 .btn-resume {
-  margin-top: 3rem;
+  margin-top: 0.5rem;
   position: bottom;
   display: inline-block;
-  margin-left: 2rem;
+  margin-left: 0.5rem;
   border: 0.1;
-  width: 12rem;
+  width: 7rem;
   height: 3.1rem;
   color: #fff;
 }
+@media (min-width: 992px) {
+  .btn-resume {
+    margin-top: 1.5rem;
+    position: bottom;
+    display: inline-block;
+    margin-left: 2rem;
+    border: 0.1;
+    width: 8rem;
+    height: 3.1rem;
+    color: #fff;
+  }
+}
 
-.btn-github, .btn-email, .btn-linkedin, .btn-twitter {
-  margin-left: 1rem;
+.btn-github, .btn-email, .btn-linkedin {
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
   position: bottom;
   display: inline-block;
   border: 0.1;
-  width: 5rem;
+  width: 4rem;
   height: 3rem;
   color: #fff;
+}
+@media (min-width: 992px) {
+  .btn-github, .btn-email, .btn-linkedin {
+    margin-left: 2rem;
+    margin-top: 1rem;
+    position: bottom;
+    display: inline-block;
+    border: 0.1;
+    width: 5rem;
+    height: 3rem;
+    color: #fff;
+  }
 }
 
 /*# sourceMappingURL=buttons.css.map */

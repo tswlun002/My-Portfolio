@@ -1,21 +1,42 @@
 @use'../customer' as *;
 @use'../components/mixins.scss' as *;
 .btn-resume{
-    margin-top: 3rem;
+    margin-top: 0.5rem;
     position: bottom;
     display: inline-block;
-    margin-left: 2rem;
+    margin-left: 0.5rem;
     border: 0.1;
-    width: 12rem;
+    width: 7rem;
     height:  3.1rem;
     color: $white;
+    @include media-breakpoint-up(lg){
+        margin-top: 1.5rem;
+        position: bottom;
+        display: inline-block;
+        margin-left: 2rem;
+        border: 0.1;
+        width: 8rem;
+        height:  3.1rem;
+        color: $white;
+    }   
 }
-.btn-github,.btn-email,.btn-linkedin, .btn-twitter{
-    margin-left: 1rem;
+.btn-github,.btn-email,.btn-linkedin{
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
     position: bottom;
     display: inline-block;
     border: 0.1;
-    width: 5rem;
+    width: 4rem;
     height:  3rem;
     color: $white;
+    @include media-breakpoint-up(lg){
+        margin-left: 2rem;
+        margin-top: 1rem;
+        position: bottom;
+        display: inline-block;
+        border: 0.1;
+        width: 5rem;
+        height:  3rem;
+        color: $white;
+    }
 }
