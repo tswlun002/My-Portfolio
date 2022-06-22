@@ -21,6 +21,10 @@
         @include media-breakpoint-up(lg){
             position: relative;
             margin-top: 3rem;
+          
+        }
+        .img-fluid{
+            border-radius: 45%;
         }
     }
 }

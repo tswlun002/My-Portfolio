@@ -1,0 +1,17 @@
+@use'../customer' as *;
+@use'../components/mixins.scss' as *;
+
+.card{
+    width: 9rem;
+    height: 9rem;
+    display: inline-block;
+    margin: 1rem;
+}
+
+.card-img{
+    width:9rem;
+    height:4rem;
+}
+
+
+

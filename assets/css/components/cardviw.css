@@ -10827,4 +10827,16 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=mixins.css.map */
+.card {
+  width: 9rem;
+  height: 9rem;
+  display: inline-block;
+  margin: 1rem;
+}
+
+.card-img {
+  width: 9rem;
+  height: 4rem;
+}
+
+/*# sourceMappingURL=cardviw.css.map */

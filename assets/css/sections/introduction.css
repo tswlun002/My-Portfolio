@@ -10722,6 +10722,111 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.example-container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+  width: 800px;
+}
+
+.example-row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(-1 * var(--bs-gutter-y));
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.example-content-main {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+@media (min-width: 576px) {
+  .example-content-main {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .example-content-main {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+}
+
+.example-content-secondary {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+@media (min-width: 576px) {
+  .example-content-secondary {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .example-content-secondary {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+}
+
+.example-content-3rd {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+@media (min-width: 576px) {
+  .example-content-3rd {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .example-content-3rd {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+}
+
+.example-content-4th {
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-top: var(--bs-gutter-y);
+}
+@media (min-width: 576px) {
+  .example-content-4th {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .example-content-4th {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+}
+
 .intro {
   background: linear-gradient(to right, #e9ecef, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
   background-image: url("../../images/background/bck.png");
@@ -10746,6 +10851,9 @@ textarea.form-control-lg {
     position: relative;
     margin-top: 3rem;
   }
+}
+.intros .profile-picture .img-fluid {
+  border-radius: 45%;
 }
 
 /*# sourceMappingURL=introduction.css.map */
