@@ -1,10 +1,11 @@
 @use'../customer' as *;
 @use'../components/mixins.scss' as *;
 
-.skills{
-    background-image:url("../../images/background/bck_.png");
+.skills-items{
+    background-image:url("../../images/background/bck.png");
+
     @include media-breakpoint-up(lg){
-        background-image:url("../../images/background/intro_bkg.jpeg");
+        background-image:url("../../images/background/bck.png");
     }
  
 }

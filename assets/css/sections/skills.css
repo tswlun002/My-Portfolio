@@ -10730,7 +10730,7 @@ textarea.form-control-lg {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
-  width: 800px;
+  width: 75%;
 }
 
 .example-row {
@@ -10827,12 +10827,12 @@ textarea.form-control-lg {
   }
 }
 
-.skills {
-  background-image: url("../../images/background/bck_.png");
+.skills-items {
+  background-image: url("../../images/background/bck.png");
 }
 @media (min-width: 992px) {
-  .skills {
-    background-image: url("../../images/background/intro_bkg.jpeg");
+  .skills-items {
+    background-image: url("../../images/background/bck.png");
   }
 }
 

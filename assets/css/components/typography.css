@@ -10830,23 +10830,31 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .about-description {
     font-size: 1.5rem;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
     display: block;
     margin-top: 2rem;
     text-transform: none;
   }
 }
 
-.card-title {
+.display-5-1 {
   font-size: 1rem;
   text-transform: capitalize;
   font-family: "Poppins", sans-serif;
-  display: inline-block;
-  text-transform: none;
-  color: #000;
 }
-
-.card-btn {
-  font-size: 1.3rem;
+.display-5-1 i {
+  font-size: 2rem;
+}
+@media (min-width: 992px) {
+  .display-5-1 {
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.3rem;
+  }
+  .display-5-1 i {
+    font-size: 2rem;
+  }
 }
 
 /*# sourceMappingURL=typography.css.map */

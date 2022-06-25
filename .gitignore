@@ -1,1 +1,5 @@
-.
+assets/js/
+assets/webfonts/
+node_modules
+.*
+!.gitignore

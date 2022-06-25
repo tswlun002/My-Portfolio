@@ -10730,7 +10730,7 @@ textarea.form-control-lg {
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-right: auto;
   margin-left: auto;
-  width: 800px;
+  width: 75%;
 }
 
 .example-row {
@@ -10873,10 +10873,25 @@ textarea.form-control-lg {
   }
 }
 
-.card-btn {
-  width: 2.5rem;
-  height: 2rem;
-  display: none;
+.btn-skill {
+  margin: 0.5rem;
+  display: inline-block;
+  border: 0;
+  width: 7rem;
+  height: 3.1rem;
+  color: #fff;
+  pointer-events: none;
+}
+@media (min-width: 992px) {
+  .btn-skill {
+    margin: 1.5rem;
+    display: inline-block;
+    border: 0;
+    width: 14rem;
+    height: 4rem;
+    color: #fff;
+    pointer-events: none;
+  }
 }
 
 /*# sourceMappingURL=buttons.css.map */
