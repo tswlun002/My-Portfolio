@@ -10893,5 +10893,8 @@ textarea.form-control-lg {
     pointer-events: none;
   }
 }
+.btn-skill i {
+  color: royalblue;
+}
 
 /*# sourceMappingURL=buttons.css.map */

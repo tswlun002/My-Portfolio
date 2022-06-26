@@ -2,10 +2,14 @@
 @use'../components/mixins.scss' as *;
 
 .skills-items{
-    background-image:url("../../images/background/bck.png");
+    //background-image:url("../../images/background/prio_back.jpg");
+    background: linear-gradient(to right,rgba($secondary, 0.3),rgba($secondary, 0.85),rgba($secondary, 0.90),rgba($secondary, 0.3));
 
     @include media-breakpoint-up(lg){
-        background-image:url("../../images/background/bck.png");
+       // background-image:url("../../images/background/prio_back.jpg");
+       background: linear-gradient(to right,rgba($secondary, 0.3),rgba($secondary, 0.85),rgba($secondary, 0.90),rgba($secondary, 0.3));
+   
     }
+ 
  
 }

@@ -10829,14 +10829,14 @@ textarea.form-control-lg {
 
 .intro {
   background: linear-gradient(to right, #e9ecef, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
-  background-image: url("../../images/background/bck.png");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3));
   padding: 2rem 0 0 0;
   width: 100%;
   height: 100%;
 }
 @media (min-width: 992px) {
   .intro {
-    background-image: url("../../images/background/bck.png");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3));
     padding: 10rem 0 0 0;
     width: 100%;
     height: 100%;

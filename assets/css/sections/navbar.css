@@ -10834,13 +10834,29 @@ textarea.form-control-lg {
 .menu li {
   padding: 0 0.8rem;
 }
-.menu a {
+.menu li a:link, .menu li a:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width: 10rem;
+  display: inline-block;
+}
+.menu li a:hover, .menu li a:active {
+  border: 1px solid blue;
+  color: white;
+  padding: 10px 30px;
+}
+.menu li a {
+  color: white;
   counter-reset: #fff !important;
   text-transform: capitalize;
   font-weight: 600;
 }
-.menu a .navbar-brand a {
+.menu li a .navbar-brand a {
   font-size: 300;
+}
+.menu a:link {
+  color: white;
 }
 
 /*# sourceMappingURL=navbar.css.map */

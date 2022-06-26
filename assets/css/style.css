@@ -10893,6 +10893,9 @@ textarea.form-control-lg {
     pointer-events: none;
   }
 }
+.btn-skill i {
+  color: royalblue;
+}
 
 .display-2 {
   margin: 1rem;
@@ -10904,11 +10907,13 @@ textarea.form-control-lg {
   font-weight: 500;
   font-size: 1.5rem;
   margin-left: 0.5rem;
+  color: orangered;
 }
 @media (min-width: 992px) {
   .display-2--greetings {
     font-size: 1.5rem;
     margin-left: 2rem;
+    color: orangered;
   }
 }
 .display-2--Fullname {
@@ -10916,11 +10921,13 @@ textarea.form-control-lg {
   font-weight: 700;
   font-size: 2.5rem;
   margin-left: 0.5rem;
+  color: orangered;
 }
 @media (min-width: 992px) {
   .display-2--Fullname {
     font-size: 4rem;
     margin-left: 2rem;
+    color: orangered;
   }
 }
 .display-2--description {
@@ -10993,6 +11000,7 @@ textarea.form-control-lg {
 }
 
 .about-description {
+  color: white;
   font-size: 1rem;
   text-transform: capitalize;
   font-family: "Poppins", sans-serif;
@@ -11007,7 +11015,11 @@ textarea.form-control-lg {
     display: block;
     margin-top: 2rem;
     text-transform: none;
+    color: white;
   }
+}
+.about-description .school-qualification {
+  text-decoration: underline;
 }
 
 .display-5-1 {
@@ -11048,25 +11060,41 @@ textarea.form-control-lg {
 .menu li {
   padding: 0 0.8rem;
 }
-.menu a {
+.menu li a:link, .menu li a:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width: 10rem;
+  display: inline-block;
+}
+.menu li a:hover, .menu li a:active {
+  border: 1px solid blue;
+  color: white;
+  padding: 10px 30px;
+}
+.menu li a {
+  color: white;
   counter-reset: #fff !important;
   text-transform: capitalize;
   font-weight: 600;
 }
-.menu a .navbar-brand a {
+.menu li a .navbar-brand a {
   font-size: 300;
+}
+.menu a:link {
+  color: white;
 }
 
 .intro {
   background: linear-gradient(to right, #e9ecef, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
-  background-image: url("../../images/background/bck.png");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3));
   padding: 2rem 0 0 0;
   width: 100%;
   height: 100%;
 }
 @media (min-width: 992px) {
   .intro {
-    background-image: url("../../images/background/bck.png");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3));
     padding: 10rem 0 0 0;
     width: 100%;
     height: 100%;
@@ -11087,20 +11115,20 @@ textarea.form-control-lg {
 }
 
 .about {
-  background-image: url("../../images/background/bck.png");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3));
 }
 @media (min-width: 992px) {
   .about {
-    background-image: url("../../images/background/bck.png");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3));
   }
 }
 
 .skills-items {
-  background-image: url("../../images/background/bck.png");
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3));
 }
 @media (min-width: 992px) {
   .skills-items {
-    background-image: url("../../images/background/bck.png");
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.3));
   }
 }
 

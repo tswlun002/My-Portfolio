@@ -6,16 +6,37 @@
 
     li{
         padding: 0 0.8rem;
-    }
-    a{
-        counter-reset: $white !important;
-        text-transform: capitalize;
-        font-weight: 600;
-        .navbar-brand a{
-            font-size: 300;
-         
+        a:link, a:visited {
+            color: white;
+            
+           
+            text-align: center;
+            text-decoration: none;
+            width: 10rem;
+            display: inline-block;
+         }
+         a:hover, a:active {
+            border: 1px solid blue;
+            color: white;
+            padding: 10px 30px;
+         }
+         a{ 
+            color: white;
+            counter-reset: $white !important;
+            text-transform: capitalize;
+            font-weight: 600;
+            .navbar-brand a{
+                font-size: 300;
+             
+            }
+          
+    
         }
-
     }
+    a:link{ 
+        color: white;
+    }
+   
+  
 }
 
